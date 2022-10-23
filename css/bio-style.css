@@ -3,16 +3,12 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: rgb(7, 193, 206);
-}
-
-.navbar li {
-  float: left;
+  background-color: #aa8b56;
+  display: flexbox;
 }
 
 .active {
-  background-color: #004a6d;
+  background-color: #4e6c50;
 }
 
 .navbar li a {
@@ -24,5 +20,36 @@
 }
 
 .navbar li a:hover {
-  background-color: rgb(216, 37, 91);
+  background-color: #f0ebce;
+  color: #395144;
+}
+
+/* konten isi */
+.container {
+  background-color: #4e6c50;
+  color: #f0ebce;
+  border: 5px solid #395144;
+  padding: 20px;
+  display: flex;
+}
+
+.container div {
+  margin: 20px;
+}
+
+.container img {
+  margin: 20px;
+  border: 5px solid gray;
+}
+
+.tentang {
+  border-color: rebeccapurple;
+}
+
+.skill {
+  border-color: orange;
+}
+
+.riwayatSekolah {
+  border-color: green;
 }

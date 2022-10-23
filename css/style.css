@@ -3,3 +3,11 @@ body {
   margin: 5px 100px;
   text-align: center;
 }
+
+ul li {
+  list-style: none;
+}
+
+ol li {
+  list-style: none;
+}
